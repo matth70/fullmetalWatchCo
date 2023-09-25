@@ -1,0 +1,89 @@
+/*CONTACT INFO*/
+
+.contact-table {
+  text-align: center;
+  margin-left: 475px;
+  margin-top: -300px;
+}
+
+.table a
+{
+    display: block;
+    text-decoration:none;
+    color: black;
+}
+
+.contact {
+  margin-left: 250px;
+  margin-bottom: 0px;
+  margin-top: -15px;
+  width: 1200px;
+}
+
+/*thead {
+  font-weight: bold;
+}
+
+td {
+  font-size: 15px;
+}
+
+.contact-type {
+  font-weight: bold;
+}*/
+
+/*table:hover {
+  transform: scale(1.1);
+}*/
+
+/*JUMBOTRON HEADER*/
+#jumbotron-background {
+  background-image: url('../img/contactheader.jpg');
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
+}
+
+#jumbotron-background p {
+  font-family: Canterbury;
+  margin-top: 80px;
+  font-size: 5em;
+  font-weight: 200px;
+  color: white;
+  text-shadow: 2px 2px grey;
+}
+/*MEDIA QUERIES*/
+
+@media (max-width: 1150px) {
+  .contact-table {
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+  table tr {
+    font-size: 3px;
+  }
+ #jumbotron-background {
+   height: 200px;
+ }
+ #jumbotron-background p {
+   font-family: Canterbury;
+   margin-top: 65px;
+   font-size: 4em;
+   font-weight: 200px;
+   color: white;
+   text-shadow: 2px 2px grey;
+ }
+  .contact {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: -15px;
+    width: 75%;
+    float: center;
+  }
+  .col-md-4 {
+    width: 90%;
+    margin-top: -150px;
+  }
+}

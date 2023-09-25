@@ -1,0 +1,452 @@
+/*UNIVERSAL STYLES*/
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+@font-face {
+    font-family: "Canterbury";
+    src: url("../fonts/Canterbury.ttf");
+}
+/*HEADER*/
+.logo {
+  width: 125px;
+  margin-left: 40px;
+  margin-bottom: -20px;
+}
+
+.nameLogo {
+  width: 450px;
+  margin-left: 355px;
+  margin-top: 25px;
+  margin-bottom: -70px;
+}
+
+.nav {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+header {
+  margin-bottom: 5px;
+}
+/*NAVBAR*/
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #000000;
+}
+/*BODY CONTENT*/
+.container>.row {
+  margin-top: 15px;
+}
+
+/*.thumbnail {
+  background-color: #000;
+}
+
+.thumbnail img {
+  height: 300px;
+  padding: 9px;
+  padding-top: 15px;
+}
+/*CAROUSEL SECTION*/
+h5 {
+  font-size: 22px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+.item {
+  height: 325px;
+  background-position: center;
+  background-size: cover;
+}
+.col-centered-sm {
+  display: inline-block;
+  width: 350px;
+  text-align: center;
+  float: none;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+.col-centered-sm a {
+  color: white;
+}
+
+.thumbnail {
+  background-color: #043457;
+  border: 1px solid #043457;
+  border-radius: 10px;
+}
+
+.thumbnail img {
+  height: 300px;
+  padding: 9px;
+  padding-top: 24px;
+}
+
+.thumbnail a {
+  height: 300px;
+}
+
+/*.thumbnail img:hover {
+    transform: scale(2.1);
+    transition: 0.10s;
+    padding-top: 80px;
+}*/
+
+h4 {
+  color: #FFFFFF;
+  text-shadow: 1px 1px #808080;
+  margin-left: -5px;
+}
+
+.desc {
+  color: #FFFFFF;
+}
+/*LISTINGS SECTION*/
+.shop-category {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
+.shop-contact {
+  color: black;
+}
+
+.listings {
+  text-align: center;
+}
+
+.table-header {
+  font-size: 20px;
+}
+
+td {
+  font-size: 16px;
+}
+
+/*.col-centered-md-12 {
+}
+
+.col-centered-md-2 {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  float: none;
+  margin-left: 26px;
+  margin-top: 20px;
+}
+
+.thumbnail {
+  background-color: #043457;
+  border: 1px solid #043457;
+  border-radius: 10px;
+}
+
+.thumbnail img {
+  height: 190px;
+  padding: 9px;
+  padding-top: 24px;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.54);
+    transform: scale(1.09);
+    transition: 0.15s;
+}
+
+.thumbnail a {
+  height: 320px;
+}*/
+
+/*h4 {
+  color: #FFFFFF;
+  text-shadow: 1px 1px #808080;
+  margin-left: -5px;
+}*/
+
+.desc {
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+#example1 {
+  background-image: url('../img/OCbanner2.png');
+  padding-bottom: 15%;
+}
+#example2 {
+  background-image: url('../img/OCbanner1.png');
+  padding-bottom: 15%;
+}
+#example2 h3, #example3 h3 {
+/*text-shadow: -1px 0 #000000,0 3px #000000,3px 0 #000000,0 -1px #000000;*/
+color: #FFFFFF;
+  -webkit-text-stroke: 1px #000;
+}
+#example3 {
+  background-image: url('../img/OCbanner3.png');
+  padding-bottom: 15%;
+}
+.carousel-caption {
+  padding-bottom: 125px;
+}
+
+.carousel-caption h3 {
+  font-size: 36px;
+  text-shadow: 2px 2px black;
+}
+.carousel-caption p {
+  font-size: 18px;
+}
+.btn-default {
+  color: #fff;
+  /*background-color: #D34326;*/
+  background-color: #043457;
+  border: none;
+}
+.btn-default:hover {
+  background-color: #12012F;
+  color: #e2e2e2;
+}
+.sales-terms {
+  width: 800px;
+  font-size: 17px;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 360px;
+}
+a {
+  color: black;
+}
+
+/*---------------------- FOOTER SECTION ----------------------*/
+footer p {
+  text-align: center;
+  margin-top: 2px;
+}
+footer {
+  text-align: center;
+  height: 150px;
+  background-color: #231F20;
+  margin-top: 50px;
+  height: 130px;
+  background-color: #231F20;
+  width: 100%;
+}
+
+footer img {
+  width: 30px;
+}
+
+.section-border {
+  border-right: 1px solid #323232;
+  margin-top: 5px;
+}
+
+.medium-grey {
+  color: #aaaaab;
+}
+.footerIcons {
+  margin-top: 3px;
+}
+
+i {
+  color: white;
+  height: 20px;
+}
+
+/*.copyright {
+  margin-top: 10px;
+  text-align: center;
+  color: #aaaaab;
+}*/
+
+a.social {
+  text-decoration:none;
+  color: #aaaaab;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+address {
+  color: white;
+  margin-top: 10px;
+}
+
+.social-icon {
+  color: white;
+  margin-bottom: 2px;
+}
+
+.footer-left {
+  width: 50%;
+  margin-left: 200px;
+}
+.footer-right {
+  margin-top: -80px;
+  width: 50%;
+  margin-left: 500px;
+}
+
+.footer-line {
+  width: 100%;
+}
+
+/*MEDIA QUERIES
+Media Query for Mobile Devices------------------------------------------------------------------------*/
+@media only screen and (min-width: 200px) and (max-width: 1150px) {
+  header {
+    max-width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: -70px;
+  }
+  .nav {
+    margin-bottom: 4px;
+    margin-right: 62px;
+    width: 100%;
+  }
+  #example1 {
+    background-image: url('../img/OCbanner2.png');
+    height: 100%;
+  }
+  #example2 {
+    background-image: url('../img/OCbanner1.png');
+    height: 100%;
+  }
+  #example3 {
+    background-image: url('../img/OCbanner3.png');
+    height: 100%;
+  }
+  .carousel-caption {
+    padding-bottom: 0px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -15px;
+  }
+  /*.thumbnail img:hover {
+      transform: scale(1.1);]
+      transition: 0.20s;
+      padding-top: 0px;
+  }*/
+.col-centered-sm {
+  margin-left: 21px;
+}
+  .logo {
+    width: 0px;
+    margin-top: 20px;
+    margin-left: 3%;
+    margin-right: 20px;
+  }
+  .carousel-inner {
+    height: 200px;
+  }
+  .carousel-caption {
+    margin-bottom: 30px;
+  }
+  .nameLogo {
+    width: 280px;
+    margin-top: 80px;
+    margin-bottom: -30px;
+    margin-left: 55px;
+    text-align: center;
+  }
+  .btn {
+    margin-bottom: 30px;
+  }
+  .col-xs-6, .col-md-5 {
+    max-width: 100%;
+  }
+  .carousel {
+    max-width: 100%;
+  }
+  .listings {
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  footer {
+    width: 100%;
+  }
+  .footer-left {
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  address {
+    margin-top: -3px;
+  }
+
+  .col-xs-6 {
+    margin-bottom: 5px;
+  }
+  .footer-right {
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .social-icons {
+    margin-bottom: 5px;
+  }
+  .footer-line {
+    width: 100%;
+  }
+}
+.footerIcons {
+  margin-top: -10px;
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1600px) {
+  .listings-inside {
+    margin-top: 10px;
+    margin-left: 250px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .shop-category {
+    text-align: center;
+  }
+  footer {
+    width: 100%;
+  }
+}
+
+/* @media only screen and (min-width: 10px) and (max-width: 1000px) {
+  .col-xs-6 address {
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+
+  .col-xs-6, .section-border {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .col-xs-6, .footerIcons {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1200px) {
+  .products-services, .col-md-8, .services {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+}*/
